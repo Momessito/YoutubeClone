@@ -1,0 +1,507 @@
+
+.navbar h6{
+font-weight: lighter;
+text-decoration: none;
+color: black;
+font-style: none;
+padding: 5px;
+text-align: center;
+font-size: smaller;
+}
+.navbar .burger{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    margin-left:25px;
+    padding: 5px;
+    margin-top: 27px;
+    z-index: 1000;
+}
+.navbar a{
+    display: flex;
+     align-items: center;
+     text-align: center;
+     height: auto;
+     width: 0;
+     margin-left: 60px;
+     margin-top: 25px;
+     z-index: 60;    
+}
+.navbar .mic{
+    margin-left:110%;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+}
+.navbar .mic:hover{
+    background-color: rgb(228, 228, 228);
+    transition: 0.2s;
+}
+.navbar{
+    position: fixed;
+}
+.icon{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    margin-left: 95%;
+    padding: 20px;
+}
+.icon svg{
+    padding-left: 0px;
+}
+button .sino{
+    border: none;
+    margin-top: 25px;
+    width: 30px;
+    height: 25px;
+    margin-left: 0;
+    border: none;
+    background-color: white;
+    box-shadow: none;
+}
+button .user{
+    border: none;
+    margin-top: 25px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px;
+    border: none;
+    background-color: white;
+    box-shadow: none;
+}
+button .camera{
+    border: none;
+    margin-top: 25px;
+    width: 30px;
+    height: 25px;
+    margin-left: -40px;
+    border: none;
+    background-color: white;
+    box-shadow: none;
+}
+
+.navbar{
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 5px;
+    width: 38%;
+}
+.pesquisa input{
+    border-radius: 0;
+    height: 40px;
+}
+.pesquisa button{
+    border-radius: 0;
+    width: 60px;
+    height: 40px;
+    border: 1px solid rgb(228, 228, 228);
+}
+.burger:hover{
+    transition: 0.2s;
+    background-color: rgb(228, 228, 228);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.burger svg{
+    margin-top: -3px;
+    width: 30px;
+    margin-left: -2px;
+}
+.burgerz{
+
+    position: flex;
+}
+.left-menu{
+    width: 120px;
+    height: 100%;
+    background-color: white;
+}
+.house{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 128px;
+    margin-left: 0%;
+    margin-top: -100px;
+    z-index: 5000;
+}
+.videos{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 28px;
+    margin-left: 2%;
+    margin-top: 170px;
+    z-index: 5000;
+}
+.Login{
+    margin-right: 1%;
+    margin-top: 0px;
+    overflow-y:hidden;
+    display: block;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    word-wrap:normal ;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(72, 72, 226);
+    border: 1px solid rgb(72, 72, 226);
+    position: relative;
+    font-weight:400;
+    cursor: pointer;
+}
+.Login svg{
+    margin-top: 5px;
+}
+.Login Span{
+    height: 20px;
+    margin-top: 5px;
+    position:relative;
+    text-align:end;
+    vertical-align: middle;
+    font-size: 1vw;
+}
+.dots{
+    position: absolute;
+    margin-top: 0px;
+margin-left: 90%;
+transform: translate(-14%);
+z-index: 60;    
+cursor: pointer;
+}
+#lado-menu{
+    width: 120px;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: block;
+}
+#lado-menu2{
+    width: 450px;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    z-index: 50;
+    position: fixed;
+    display: none;
+}
+.home{
+    z-index: 60;
+    width: 65px;
+    height: 65px;
+    margin-top: 1070px;
+    margin-left: 55px;
+    background-color:rgba(0, 0, 0, 0.137);;
+    cursor: pointer;
+    position: absolute;
+}
+.home svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 32px;
+    margin-top: -5px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home a{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    color: black;
+    margin-top: 15px;
+    position: flex;
+    text-decoration: none;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.home:hover{
+    transition: 0.2s;
+    z-index: 50;
+    width: 65px;
+    height: 65px;
+    margin-top: 1070px;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Videos{
+    z-index: 60;
+    width: 65px;
+    height: 65px;
+    margin-top: 1150px;
+    margin-left: 55px;
+    background-color:none;
+    cursor: pointer;
+    position: absolute;
+
+}
+.Videos:hover{
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Videos svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: -05px;
+    position: flex;
+    align-items: center;
+    justify-content: center;}
+.Videos a{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: -14px;
+    color: black;
+    margin-top: 15px;
+    position: flex;
+    text-decoration: none;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Youtube{
+    z-index: 60;
+    width: 65px;
+    height: 65px;
+    margin-top: 1230px;
+    margin-left: 55px;
+    background-color:none;
+    cursor: pointer;
+    position: absolute;
+}
+.Youtube:hover{
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Youtube svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Youtube a{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    color: black;
+    margin-top: 15px;
+    position: flex;
+    text-decoration: none;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home2{
+    z-index: 60;
+    width: 225px;
+    height: 50px;
+    margin-top: 1073px;
+    margin-left: 225px;
+    background-color:rgba(0, 0, 0, 0.137);
+    cursor: pointer;
+    position: absolute;
+}
+#tudo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: calc(100% - 60px);
+    background-color: none;
+    height: 700px;
+    position: flex;
+    background-color: none;
+    z-index: -5;
+    display: flex;
+    flex-wrap:wrap;
+    -webkit-user-select: none;
+}
+#tudo > div {
+    width: 330px;
+    height: 320px;
+    margin: 2px;
+    text-align: center;
+    line-height: 205px;
+    font-size: 30px;
+    border: 1px solid rgb(231, 231, 231);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  #tudo img{
+    margin-top: -20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+  #tudo a{
+    position: absolute;
+    height: 120px;
+    margin-left: -230px;
+    margin-top: -90px;    
+    color: black;
+    font-size: large;
+    text-align: start;
+    font-weight: bolder;
+  }
+  #tudo img[b]{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -250px;
+    margin-top: -80px;
+  }
+  #tudo p[a]{
+    text-align: start;
+    margin-left: 70px;
+    font-size: 12px;
+    margin-top: -255px;
+  }
+  #tudo p[b]{
+    margin-top: -200px;
+    font-size: 12px;
+    text-align: start;
+    margin-left: 70px;
+  }
+.home2 svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 29px;
+    margin-top: 0px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home2 a{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    float: right;
+    color: black;
+    margin-top: -6px;
+    position: flex;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.home2:hover{
+    transition: 0.2s;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Videos2{
+    z-index: 60;
+    width: 225px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 338px;
+    background-color:none;
+    cursor: pointer;
+    position: absolute;
+}
+.Videos2:hover{
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Videos2 svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: -85px;
+    margin-top: 0px;
+    position: flex;
+    align-items: center;
+    justify-content: center;}
+.Videos2 a{
+    z-index: 50;
+    width: 100%;
+    height: 40px;
+    margin-left: 0px;
+    color: black;
+    position: absolute;
+    margin-top: 5px;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Youtube2{
+    z-index: 60;
+    width: 225px;
+    height: 50px;
+    margin-top: 1220px;
+    margin-left: 225px;
+    background-color:none;
+    cursor: pointer;
+    position: absolute;
+}
+.Youtube2:hover{
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.Youtube2 svg{
+    z-index: 50;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Youtube2 a{
+    z-index: 50;
+    width: 100%;
+    height: 40px;
+    margin-left: -32px;
+    color: black;
+    position: absolute;
+    margin-top: 5px;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}

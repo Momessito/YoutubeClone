@@ -1,0 +1,25 @@
+@media screen and (max-width:739px) {
+    
+    .Login{
+        display: none;
+    }
+    .mic{
+        display: none;
+    }
+    .pesquisa{
+        margin-left: 60%;
+        transform: translate(-30%);
+        margin-top: 5px;
+        width: 38%;
+    }
+}
+@media screen and (min-width:1125px) and (max-width:1699px) {
+    .dots{
+        margin-left: 85%;
+    }
+}
+@media screen and (min-width:740px) and (max-width:1124px) {
+    .dots{
+        margin-left: 77%;
+    }
+}
