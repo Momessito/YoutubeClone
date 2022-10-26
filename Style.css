@@ -16,7 +16,7 @@ font-size: smaller;
     margin-left:25px;
     padding: 5px;
     margin-top: 27px;
-    z-index: 1000;
+    z-index: 100;
 }
 .navbar a{
     display: flex;
@@ -26,7 +26,7 @@ font-size: smaller;
      width: 0;
      margin-left: 60px;
      margin-top: 25px;
-     z-index: 60;    
+     z-index: 0;    
 }
 .navbar .mic{
     margin-left:110%;
@@ -44,6 +44,7 @@ font-size: smaller;
     margin-top: -60px;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .icon{
     width: 80px;
@@ -122,9 +123,10 @@ button .camera{
     margin-top: -3px;
     width: 30px;
     margin-left: -2px;
+    z-index: 60;
 }
 .burgerz{
-
+    z-index: 70;
     position: flex;
 }
 .left-menu{
@@ -196,6 +198,7 @@ cursor: pointer;
     background-color: rgb(255, 255, 255);
     position: fixed;
     display: block;
+    z-index: 9;
 }
 #lado-menu2{
     width: 450px;
@@ -357,7 +360,7 @@ cursor: pointer;
 #tudo > div {
     width: 330px;
     height: 320px;
-    margin: 2px;
+    margin-right: 10px;
     text-align: center;
     line-height: 205px;
     font-size: 30px;
