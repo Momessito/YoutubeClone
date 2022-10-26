@@ -18,6 +18,9 @@ font-size: smaller;
     margin-top: 27px;
     z-index: 100;
 }
+.burger{
+    z-index: 100;
+}
 .navbar a{
     display: flex;
      align-items: center;
@@ -44,7 +47,7 @@ font-size: smaller;
     margin-top: -60px;
     position: fixed;
     width: 100%;
-    z-index: 110;
+    z-index: 10;
 }
 .icon{
     width: 80px;
@@ -126,7 +129,7 @@ button .camera{
     z-index: 60;
 }
 .burgerz{
-    z-index: 70;
+    z-index: 100;
     position: flex;
 }
 .left-menu{
