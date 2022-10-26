@@ -44,7 +44,7 @@ font-size: smaller;
     margin-top: -60px;
     position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index: 110;
 }
 .icon{
     width: 80px;
