@@ -41,7 +41,9 @@ font-size: smaller;
     transition: 0.2s;
 }
 .navbar{
+    margin-top: -60px;
     position: fixed;
+    width: 100%;
 }
 .icon{
     width: 80px;
@@ -338,8 +340,9 @@ cursor: pointer;
     position: absolute;
 }
 #tudo{
+    background-color: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 0px;
+    margin-top: 60px;
     margin-left: 60px;
     width: calc(100% - 60px);
     background-color: none;
